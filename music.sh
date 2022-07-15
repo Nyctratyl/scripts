@@ -1,2 +1,2 @@
 #!/usr/bin/sh
-playerctl --player=$player metadata --format '{{playerName}};{{title}};{{artist}}'
+playerctl --player=spotify metadata --format '{{playerName}};{{title}};{{artist}}'
